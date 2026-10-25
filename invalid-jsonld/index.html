@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Independent AgentFlow QA static test fixtures. Fictional products; no purchase or account features.">
+  <title>Invalid JSON-LD | AgentFlow QA Test Lab</title>
+  <link rel="stylesheet" href="../assets/styles.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Field Pack 24L",
+}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header><a class="brand" href="../index.html">AgentFlow QA <span aria-hidden="true">/</span> Test Lab</a><span class="label">Independent scanner fixtures</span></header>
+  <main id="main">
+    <div class="grid">
+      <figure class="art"><img src="../assets/field-pack.svg" width="600" height="600" alt="Forest green Field Pack 24L backpack"><figcaption>Original test illustration &middot; Forest green</figcaption></figure>
+      <section aria-labelledby="product-name">
+        <span class="label">AgentFlow QA Test Lab / Fictional equipment</span>
+        <h1 id="product-name">Field Pack 24L</h1>
+        <span class="badge">In stock</span>
+        <p class="lead">A fictional 24-liter forest green daypack used only for AgentFlow QA scanner validation.</p>
+        <p class="price">$79.00 <small>USD &middot; Demo price</small></p>
+        <dl><dt>SKU</dt><dd>AFQA-DEMO-PACK-024</dd><dt>Capacity</dt><dd>24 liters</dd><dt>Condition</dt><dd>New</dd><dt>Availability</dt><dd>In stock</dd></dl>
+        <div class="notice"><strong>Fixture: Invalid JSON-LD</strong><p>The JSON-LD contains an intentional trailing comma. A parse error and missing Product finding are expected.</p><p>Test content only. No purchase is available.</p></div>
+      </section>
+    </div>
+    <nav aria-label="Test fixtures"><a href="../">All fixtures</a><a href="../valid-product/">Complete Product</a><a href="../missing-fields/">Missing fields</a><a href="../no-jsonld/">No JSON-LD</a></nav></main>
+  <footer>AgentFlow QA test content. Fictional product. No checkout, tracking, accounts, or external assets.</footer>
+</body>
+</html>

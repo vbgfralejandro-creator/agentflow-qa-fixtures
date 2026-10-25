@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Independent AgentFlow QA static test fixtures. Fictional products; no purchase or account features.">
+  <title>Product fixtures | AgentFlow QA Test Lab</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header><a class="brand" href="index.html">AgentFlow QA <span aria-hidden="true">/</span> Test Lab</a><span class="label">Independent scanner fixtures</span></header>
+  <main id="main">
+    <span class="label">Product JSON-LD / Fixture collection</span>
+    <h1>A small product.<br>A clear test signal.</h1>
+    <p class="lead">Four independent HTML pages for validating AgentFlow QA's static Product detector. One valid control, three deliberate failure cases.</p>
+    <div class="notice"><strong>Test content only</strong><p>These are prewritten fixtures, not scan results. The product is fictional and cannot be purchased. Opening a page does not start a scan.</p></div>
+    <div class="cards">
+      <a class="card" href="valid-product/"><h2>Complete Product <span aria-hidden="true">&rarr;</span></h2><p>Complete Product and Offer data. The current static detector should return zero Findings.</p></a>
+      <a class="card" href="missing-fields/"><h2>Missing fields <span aria-hidden="true">&rarr;</span></h2><p>The visible demo product is unchanged, but its JSON-LD deliberately omits four Product fields and four Offer fields.</p></a>
+      <a class="card" href="invalid-jsonld/"><h2>Invalid JSON-LD <span aria-hidden="true">&rarr;</span></h2><p>The JSON-LD contains an intentional trailing comma. A parse error and missing Product finding are expected.</p></a>
+      <a class="card" href="no-jsonld/"><h2>No JSON-LD <span aria-hidden="true">&rarr;</span></h2><p>There is intentionally no JSON-LD script. The missing JSON-LD finding is expected.</p></a>
+    </div></main>
+  <footer>AgentFlow QA test content. Fictional product. No checkout, tracking, accounts, or external assets.</footer>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Field Pack 24L</title>
+  <desc id="desc">Original illustration of a forest green backpack on a pale background.</desc>
+  <ellipse cx="300" cy="520" rx="142" ry="20" fill="#c4d0bf"/>
+  <path d="M245 140V112c0-44 110-44 110 0v28" fill="none" stroke="#233e32" stroke-width="21"/>
+  <path d="M203 172c-50 48-49 243-25 293M397 172c50 48 49 243 25 293" fill="none" stroke="#7b8f70" stroke-width="28" stroke-linecap="round"/>
+  <rect x="173" y="133" width="254" height="375" rx="72" fill="#335947"/>
+  <path d="M174 253V207c0-45 29-74 70-74h112c42 0 71 29 71 74v46z" fill="#416a54"/>
+  <path d="M210 252h180" stroke="#a1ae90" stroke-width="5" stroke-linecap="round"/>
+  <rect x="210" y="306" width="180" height="149" rx="26" fill="#294b3b"/>
+  <path d="M228 338h144" stroke="#a1ae90" stroke-width="4"/>
+  <rect x="270" y="192" width="60" height="30" rx="4" fill="#d8ddc8"/>
+  <path d="M289 208h22" stroke="#335947" stroke-width="3"/>
+</svg>
